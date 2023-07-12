@@ -2,75 +2,95 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Feedback/PastPresent.Legends</title>
+        <title>BestInTheWorld.Sports</title>
         <link rel="stylesheet" href="quiz.css">
     </head>
     <body>
         <header class="mmmm">
             <h1>FEEDBACK ANKETİ</h1>
         </header>
-        <form class="xy">
+        <div class="container">
+            <form class="xy">
 
-            <label for="Name" class="hidden-label">Name</label>
-            <input type="Name" name="Name" id="Name" placeholder="Name">
+                <label for="Name" class="hidden-label">Name</label>
+                <input type="Name" name="Name" id="Name" placeholder="Name">
+        
+                <label for="Surname" class="hidden-label">Surname</label>
+                <input type="Surname" name="Surname" id="Surname" placeholder="Surname">
     
-            <label for="Surname" class="hidden-label">Surname</label>
-            <input type="Surname" name="Surname" id="Surname" placeholder="Surname">
-
-            <label for="Age" class="hidden-label">Age</label>
-            <input type="Age" name="Age" id="Age" placeholder="Age">
-
-            <label for="email" class="hidden-label">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email">
-
-            <label for="submit" class="hidden-label">Submit</label>
-            <input type="submit" name="submit" id="submit" placeholder="submit">
-
+                <label for="Age" class="hidden-label">Age</label>
+                <input type="Age" name="Age" id="Age" placeholder="Age">
     
-          </form>
+                <label for="email" class="hidden-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+    
+                <label for="submit" class="hidden-label">Submit</label>
+                <input type="submit" name="submit" id="submit" placeholder="submit">
+
+              </form>
+
+        </div>
+        <div class="column-layout">
+            <div class="main-column">
+                <h2>Questions</h2>
+                <fieldset class="mm">
+                    <legend class="m">Question 1:</legend>
+                    <label for="topskorer">Seri A liginin Top Skoreri Kimdir?</label>
+                    <input type="checkbox" id="oshimhen" name="topskorer" value="oshimhen"><label for="Osimhen">Osimhen</label>
+                    <input type="checkbox" id="vlahovic" name="topskorer" value="vlahovic><label for="vlahovic">Vlahovic</label> 
+                    <input type="checkbox" id="lukaku" name="topskorer" value="lukaku"><label for="lukaku">Lukaku</label>
+                    <input type="checkbox" id="abraham" name="topskorer" value="abraham"><label for="abraham">Abraham</label>
+                </fieldset>
+        
+                <fieldset class="mm">
+                    <legend class="m">Question 2:</legend>
+                    <label for="topassist">Laligada Bu sezon en çok asist yapan oyuncu hangisidir?</label>
+                    <input type="checkbox" id="Griezmann" name="topassist" value="Griezmann"><label for="Griezmann">Griezmann</label>
+                    <input type="checkbox" id="Merino" name="topassist" value="Merino"><label for="Merino">Merino</label>
+                    <input type="checkbox" id="vinicius" name="topassist" value="vinicius"><label for="vinicius">Vinicius</label>
+                    <input type="checkbox" id="lewandowski" name="topassist"  value="lewandowski"><label for="lewandowski">Lewandowski</label>
+                </fieldset>
+        
+                <fieldset class="mm">
+                    <legend class="m">Question 3:</legend>
+                    <label for="sürprizuclhakki">Premier Ligde Bu sezon ligi 4.sirada bitirerek bir şoka imza atan ve ucl turnuvasina katilma hakki kazanan takim hangisidir? </label>
+                    <input type="checkbox" id="Newcastle" name="sürprizuclhakki" value="Newcastle"><label for="Newcastle">Newcastle</label>
+                    <input type="checkbox" id="Westham" name="sürprizuclhakki" value="Westham"><label for="Westham">West HAM</label>
+                    <input type="checkbox" id="Brighton" name="sürprizuclhakki" value="Brighton"><label for="Brighton">Brighton</label>
+                    <input type="checkbox" id="Wolves" name="sürprizuclhakki"  value="Wolves"><label for="Wolves">Wolves</label>
+                </fieldset>
+                <fieldset class="mm">
+                    <legend class="m">Question 4:</legend>
+                    <label for="wondergoal">Bundesliganin Son Haftasinda 90.dkda attiği gol ile takimina şampiyonluğu getiren oyuncu kimdir?</label>
+                    <input type="checkbox" id="Musiala" name="wondergoal"value="Musiala"><label for="Musiala">Musiala</label>
+                    <input type="checkbox" id="Coman" name="wondergoal"value="Coman"><label for="Coman">Coman</label>
+                    <input type="checkbox" id="Gnabry" name="wondergoal"value="Gnabry"><label for="Gnabry">Gnabry</label>
+                    <input type="checkbox" id="Kimmich" name="wondergoal"value="Kimmich"><label for="Kimmich">Kimmich</label>
+                </fieldset>
+                <fieldset class="mm">
+                    <legend class="m">Question 5:</legend>
+                    <label for="dreamseason">Bu sezon Ligue1i 2.sirada bitirerek kulüp tarihinin en başarili sezonlarindan birine imza atan takim hangisidir?</label>
+                    <input type="checkbox" id="Lens" name="dreamseason"value="Lens"><label for="Lens">Lens</label>
+                    <input type="checkbox" id="marseille" name="dreamseason"value="marseille"><label for="marseille">Marseille</label>
+                    <input type="checkbox" id="Lille" name="dreamseason"value="Lille"><label for="Lille">Lille</label>
+                    <input type="checkbox" id="Lyon" name="dreamseason"value="Lyon"><label for="Lyon">Lyon</label>
+                </fieldset>
+
+            </div>
+            <div class="sidebar-one">
+                <h3>Notes 1</h3>
+                <p>Bu Quiz Sitemizde Bahsedilen Ligler Hakkında Hazırlanmış Olup 2023 Haziran Ayında Biten Sezon Verileri Ele Alınmıştır.</p>
+                <p>Önümüzdeki Yıl Sezon Tamamlandığında Sitemizin Durumu Güncellenecektir</p>
+            </div>
+
+            <div class="sidebar-two">
+                <h3>Notes 2</h3>
+                <p>Bu Quizin Amacı Ziyaretçilerimizin Futbol Trivia Bilgisini Ölçmektir.</p>
+            </div>
+        </div>
+        
        
-        <fieldset class="mm">
-            <legend class="m">Question 1:</legend>
-            <label for="topskorer">Seri A liginin Top Skoreri Kimdir?</label>
-            <input type="checkbox" id="oshimhen" name="topskorer" value="oshimhen"><label for="Osimhen">Osimhen</label>
-            <input type="checkbox" id="vlahovic" name="topskorer" value="vlahovic><label for="vlahovic">Vlahovic</label> 
-            <input type="checkbox" id="lukaku" name="topskorer" value="lukaku"><label for="lukaku">Lukaku</label>
-            <input type="checkbox" id="abraham" name="topskorer" value="abraham"><label for="abraham">Abraham</label>
-        </fieldset>
-
-        <fieldset class="mm">
-            <legend class="m">Question 2:</legend>
-            <label for="topassist">Laligada Bu sezon en çok asist yapan oyuncu hangisidir?</label>
-            <input type="checkbox" id="Griezmann" name="topassist" value="Griezmann"><label for="Griezmann">Griezmann</label>
-            <input type="checkbox" id="Merino" name="topassist" value="Merino"><label for="Merino">Merino</label>
-            <input type="checkbox" id="vinicius" name="topassist" value="vinicius"><label for="vinicius">Vinicius</label>
-            <input type="checkbox" id="lewandowski" name="topassist"  value="lewandowski"><label for="lewandowski">Lewandowski</label>
-        </fieldset>
-
-        <fieldset class="mm">
-            <legend class="m">Question 3:</legend>
-            <label for="sürprizuclhakki">Premier Ligde Bu sezon ligi 4.sirada bitirerek bir şoka imza atan ve ucl turnuvasina katilma hakki kazanan takim hangisidir? </label>
-            <input type="checkbox" id="Newcastle" name="sürprizuclhakki" value="Newcastle"><label for="Newcastle">Newcastle</label>
-            <input type="checkbox" id="Westham" name="sürprizuclhakki" value="Westham"><label for="Westham">West HAM</label>
-            <input type="checkbox" id="Brighton" name="sürprizuclhakki" value="Brighton"><label for="Brighton">Brighton</label>
-            <input type="checkbox" id="Wolves" name="sürprizuclhakki"  value="Wolves"><label for="Wolves">Wolves</label>
-        </fieldset>
-        <fieldset class="mm">
-            <legend class="m">Question 4:</legend>
-            <label for="wondergoal">Bundesliganin Son Haftasinda 90.dkda attiği gol ile takimina şampiyonluğu getiren oyuncu kimdir?</label>
-            <input type="checkbox" id="Musiala" name="wondergoal"value="Musiala"><label for="Musiala">Musiala</label>
-            <input type="checkbox" id="Coman" name="wondergoal"value="Coman"><label for="Coman">Coman</label>
-            <input type="checkbox" id="Gnabry" name="wondergoal"value="Gnabry"><label for="Gnabry">Gnabry</label>
-            <input type="checkbox" id="Kimmich" name="wondergoal"value="Kimmich"><label for="Kimmich">Kimmich</label>
-        </fieldset>
-        <fieldset class="mm">
-            <legend class="m">Question 5:</legend>
-            <label for="dreamseason">Bu sezon Ligue1i 2.sirada bitirerek kulüp tarihinin en başarili sezonlarindan birine imza atan takim hangisidir?</label>
-            <input type="checkbox" id="Lens" name="dreamseason"value="Lens"><label for="Lens">Lens</label>
-            <input type="checkbox" id="marseille" name="dreamseason"value="marseille"><label for="marseille">Marseille</label>
-            <input type="checkbox" id="Lille" name="dreamseason"value="Lille"><label for="Lille">Lille</label>
-            <input type="checkbox" id="Lyon" name="dreamseason"value="Lyon"><label for="Lyon">Lyon</label>
-        </fieldset>
+        
 
 
     
